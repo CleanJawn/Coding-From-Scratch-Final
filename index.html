@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Create an ID!</title>
+    <link rel="stylesheet" href="C:\Users\Nate\Desktop\Scripts\html\style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1 class="header">Let's create an ID card!</h1>
+    <form action="index.html" method="post">
+      <label for="firstName">First Name:</label><br>
+      <input type="text" placeholder="First Name" id="firstName"> <br>
+      <label for="lastName">Last Name:</label><br>
+      <input type="text" placeholder="Last Name" id="lastName"> <br>
+      <label for="age">Age:</label><br>
+      <input type="select" placeholder="Age" id="age"> <br>
+      <label for="phoneNumber">Phone Number:</label><br>
+      <input type="text" placeholder="Phone Number (No hyphens please!)" id="phoneNumber"> <br>
+      <label for="address">Address:</label><br>
+      <input type="text" placeholder="Address" id="address"> <br>
+      <button type="button" onclick="idCard()">Get ID Card!</button>
+    </form>
+    <div class="card">
+      <div class="text">
+      <img src="https://thumbs.dreamstime.com/b/default-avatar-profile-icon-social-media-user-vector-default-avatar-profile-icon-social-media-user-vector-portrait-176194876.jpg" id="idPic">
+      <p id="postFullName">Your Name</p>
+      <p id="postAge" class="inner">Age: Your age</p>
+      <p id="postPhone" class="inner">Phone Number: Your Phone Number </p>
+      <p id="postAddress" class="inner">Address: Your address</p>
+      </div>
+      <img class="logo" src="https://coursereport-s3-production.global.ssl.fastly.net/uploads/school/logo/614/original/246x0w.jpg">
+    </div>
+
+    <script type="text/javascript" src="C:\Users\Nate\Desktop\Scripts\HTML\script.js">
+    </script>
+  </body>
+</html>
